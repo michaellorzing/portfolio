@@ -1,0 +1,32 @@
+.text {
+  color:white
+}
+
+.github {
+  color: #78828B;
+  padding: 10px;
+  margin-top: 15%;
+  margin-right: 10%;
+}
+
+.github:hover{
+  color: #56ECFF;
+  padding: 13px;
+}
+
+.linkedin {
+  color: #78828B;
+  padding: 10px;
+  margin-top: 15%;
+  margin-left: 10;
+}
+
+.linkedin:hover{
+  color: #56ECFF;
+  padding: 13px;
+}
+
+.gmail {
+  color: white;
+  padding: 50px;
+}

@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  background-color: #363B41;
+  justify-content: flex-start;
+  opacity: 0.8;
+}
+
+.nav:hover {
+  opacity: 0.95;
+}
+
+.text {
+  color: #7F8993;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 95px;
+}
+
+.text:hover {
+  color: #375880;
+  text-decoration: none;
+}

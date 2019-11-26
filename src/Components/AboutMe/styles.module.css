@@ -1,0 +1,55 @@
+.text {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.textContainer {
+  max-width: 20px;
+  background-color: #34393E;
+  border-radius: 0, 15px, 15px, 15px;
+  opacity: 0.9;
+}
+
+.container {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  border-radius: 15px;
+  border: 3px black;
+  opacity: 0.8;
+  margin-right: 35px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.h1 {
+  color: white;
+  font-size: 90px;
+  font-family: 'PT Serif', serif;
+}
+
+.h2 {
+  color: white;
+  font-size: 60px;
+  font-family: 'PT Serif', serif;
+}
+
+.button {
+  color: white;
+  margin-top: 10%;
+}
+
+.page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
