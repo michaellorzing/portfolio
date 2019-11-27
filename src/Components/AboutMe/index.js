@@ -16,10 +16,10 @@ export default function AboutMe() {
       {aboutMeOpen ? (
         <animated.div style={fadeIn}>
           <Container className={styles.container}>
-            <Row>
+            <Col>
               <img src={placeholder} className={styles.img} />
-            </Row>
-            <Row>
+            </Col>
+            <Col>
               <Container className={styles.textContainer}>
                 <p className={styles.text}>
                   Thanks for stopping by!
@@ -43,7 +43,7 @@ export default function AboutMe() {
                   Feel free to take a look around at my work portfolio, resume, and Github and LinkedIn pages.
                 </p>
               </Container>
-            </Row>
+            </Col>
           </Container>
         </animated.div>
       ) : (
