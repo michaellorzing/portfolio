@@ -12,9 +12,9 @@ export default function AboutMe() {
   const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } })
 
   return (
-    <div className={styles.aboutMe}>
+    <animated.div style={fadeIn}>
       {aboutMeOpen ? (
-        <animated.div style={fadeIn}>
+        <div>
           <Container className={styles.container}>
             <Row>
               <Col>
@@ -49,12 +49,12 @@ export default function AboutMe() {
               </Col>
             </Row>
           </Container>
-        </animated.div>
+        </div>
       ) : (
           <Row>
             <Col>
               <Container className={styles.mainContainer}>
-                <animated.div style={fadeIn}>
+                <div>
                   <h1 className={styles.h1}>Hi, my name is Mike</h1>
                   <h2 className={styles.h2}>I'm a web developer</h2>
                   <Button
@@ -65,12 +65,12 @@ export default function AboutMe() {
                   >
                     Learn More About Me
                   </Button>
-                </animated.div>
+                </div>
               </Container>
             </Col>
           </Row>
         )
       }
-    </div>
+    </animated.div>
   )
 }
