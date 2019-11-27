@@ -22,7 +22,7 @@ export default function SideNav(props) {
       <Nav className={styles.nav}>
         <NavItem>
           <NavLink>
-            <Link to='/' >
+            <Link to='/portfolio' >
               <img src={logo} />
             </Link>
           </NavLink>
@@ -53,7 +53,7 @@ export default function SideNav(props) {
         <Route path="/contact" component={Contact}>
           <Contact />
         </Route>
-        <Route exact path="/" component={AboutMe}>
+        <Route exact path="/portfolio" component={AboutMe}>
           <AboutMe />
         </Route>
       </Switch>
