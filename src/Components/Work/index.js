@@ -22,8 +22,8 @@ export default function Work() {
               <a target="_blank" href="http://www.skunexus.com">
                 <img src={skunexus} />
                 <div className={styles.imgDescription}>
-                  <h1>SkuNexus</h1>
-                  <p>A warehouse management system using React, Redux, and GraphQL</p>
+                  <h1 className={styles.text}>SkuNexus</h1>
+                  <p className={styles.text}>A warehouse management system using React, Redux, and GraphQL</p>
                 </div>
               </a>
             </div>
@@ -33,8 +33,8 @@ export default function Work() {
               <a target="_blank" href="https://peaceful-brushlands-41083.herokuapp.com/">
                 <img src={spacex} />
                 <div className={styles.imgDescription}>
-                  <h1>SpaceX Launches</h1>
-                  <p>Tracks SpaceX launches using React and GraphQL</p>
+                  <h1 className={styles.text}>SpaceX Launches</h1>
+                  <p className={styles.text}>Tracks SpaceX launches using React and GraphQL</p>
                 </div>
               </a>
             </div>
@@ -44,8 +44,8 @@ export default function Work() {
               <a target="_blank" href="https://koutouzosm.github.io/Project_1/index.html">
                 <img src={moviemate} />
                 <div className={styles.imgDescription}>
-                  <h1>Movie-Flow</h1>
-                  <p>Movie suggestions and information using JQuery</p>
+                  <h1 className={styles.text}>Movie-Flow</h1>
+                  <p className={styles.text}>Movie suggestions and information using JQuery</p>
                 </div>
               </a>
             </div>
@@ -57,8 +57,8 @@ export default function Work() {
               <a target="_blank" href="https://notetaker-express.herokuapp.com/">
                 <img src={notetaker} />
                 <div className={styles.imgDescription}>
-                  <h1>Notetaker</h1>
-                  <p>Notetaking app using JQuery, MYSQL, Node, and Express</p>
+                  <h1 className={styles.text}>Notetaker</h1>
+                  <p className={styles.text}>Notetaking app using JQuery, MYSQL, Node, and Express</p>
                 </div>
               </a>
             </div>
@@ -68,8 +68,8 @@ export default function Work() {
               <a target="_blank" href="https://movie-mate-fullstack.herokuapp.com/">
                 <img src={moviematereact} />
                 <div className={styles.imgDescription}>
-                  <h1>Movie-Mate</h1>
-                  <p>App to share movies with friends using React</p>
+                  <h1 className={styles.text}>Movie-Mate</h1>
+                  <p className={styles.text}>App to share movies with friends using React</p>
                 </div>
               </a>
             </div>
@@ -79,8 +79,8 @@ export default function Work() {
               <a target="_blank" href="https://michaellorzing.github.io/Crystal-Game/index.html">
                 <img src={crystal} />
                 <div className={styles.imgDescription}>
-                  <h1>Crystal Game</h1>
-                  <p>Guess the computer's chosen number using JQuery</p>
+                  <h1 className={styles.text}>Crystal Game</h1>
+                  <p className={styles.text}>Guess the computer's chosen number using JQuery</p>
                 </div>
               </a>
             </div>
