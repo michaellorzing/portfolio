@@ -23,7 +23,7 @@ export default function Resume() {
         className={styles.resume}
         height="1000px"
         width="1000px"
-        src="https://docs.google.com/document/d/e/2PACX-1vSBiH6IRjmtk-e5qxS-jD1KG_Y4DACUnSVLSteOUn38Dg9Dj6RVU70pmNGHDXoI8LihCjR2smtiSjof/pub">
+        src="https://docs.google.com/document/d/e/2PACX-1vSBiH6IRjmtk-e5qxS-jD1KG_Y4DACUnSVLSteOUn38Dg9Dj6RVU70pmNGHDXoI8LihCjR2smtiSjof/pub?embedded=true">
       </iframe>
     </animated.div>
   )
