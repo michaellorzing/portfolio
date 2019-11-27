@@ -5,15 +5,9 @@
 }
 
 .textContainer {
-  max-width: 20px;
   background-color: #34393E;
   border-radius: 0, 15px, 15px, 15px;
-  border: black;
   opacity: 0.9;
-}
-
-.textContainer:hover {
-  opacity: 1;
 }
 
 .container {
