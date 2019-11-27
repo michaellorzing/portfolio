@@ -4,26 +4,26 @@
 
 .github {
   color: #78828B;
-  padding: 10px;
+  font-size:400px;
   margin-top: 15%;
   margin-right: 10%;
 }
 
 .github:hover{
   color: #56ECFF;
-  padding: 13px;
+  font-size: 425px;
 }
 
 .linkedin {
   color: #78828B;
-  padding: 10px;
+  font-size: 400px;
   margin-top: 15%;
-  margin-left: 10;
+  margin-left: 10%;
 }
 
 .linkedin:hover{
   color: #56ECFF;
-  padding: 13px;
+  font-size: 425px;
 }
 
 .gmail {

@@ -20,10 +20,11 @@ export default function SideNav(props) {
   return (
     <Router>
       <Nav className={styles.nav}>
-        <img src={logo} />
         <NavItem>
           <NavLink>
-            <Link to='/' className={styles.text}>About Me</Link>
+            <Link to='/' >
+              <img src={logo} />
+            </Link>
           </NavLink>
         </NavItem>
         <NavItem>

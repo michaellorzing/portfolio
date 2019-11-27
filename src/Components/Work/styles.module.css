@@ -1,4 +1,31 @@
-.text {
-  color:white
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
+.imageWrap {
+  position: relative;
+  margin-top: 15%;
+}
+
+.imgDescription{
+  position: absolute;
+  width: 500px;
+  height: 254px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(52, 57, 62, 0.72);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+
+.imageWrap:hover .imgDescription{
+  visibility: visible;
+  opacity: 1;
+}
