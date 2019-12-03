@@ -19,7 +19,7 @@ export default function Work() {
         <Row>
           <Col md-4>
             <div className={styles.imageWrap}>
-              <a target="_blank" href="http://www.skunexus.com">
+              <a target="_blank" rel="noopener noreferrer" href="http://www.skunexus.com">
                 <img src={skunexus} />
                 <div className={styles.imgDescription}>
                   <h1 className={styles.text}>SkuNexus</h1>
@@ -30,7 +30,7 @@ export default function Work() {
           </Col>
           <Col md-4>
             <div className={styles.imageWrap}>
-              <a target="_blank" href="https://peaceful-brushlands-41083.herokuapp.com/">
+              <a target="_blank" rel="noopener noreferrer" href="https://peaceful-brushlands-41083.herokuapp.com/">
                 <img src={spacex} />
                 <div className={styles.imgDescription}>
                   <h1 className={styles.text}>SpaceX Launches</h1>
@@ -41,7 +41,7 @@ export default function Work() {
           </Col>
           <Col md-4>
             <div className={styles.imageWrap}>
-              <a target="_blank" href="https://koutouzosm.github.io/Project_1/index.html">
+              <a target="_blank" rel="noopener noreferrer" href="https://koutouzosm.github.io/Project_1/index.html">
                 <img src={moviemate} />
                 <div className={styles.imgDescription}>
                   <h1 className={styles.text}>Movie-Flow</h1>
@@ -54,7 +54,7 @@ export default function Work() {
         <Row>
           <Col>
             <div className={styles.imageWrap}>
-              <a target="_blank" href="https://notetaker-express.herokuapp.com/">
+              <a target="_blank" rel="noopener noreferrer" href="https://notetaker-express.herokuapp.com/">
                 <img src={notetaker} />
                 <div className={styles.imgDescription}>
                   <h1 className={styles.text}>Notetaker</h1>
@@ -65,7 +65,7 @@ export default function Work() {
           </Col>
           <Col>
             <div className={styles.imageWrap}>
-              <a target="_blank" href="https://movie-mate-fullstack.herokuapp.com/">
+              <a target="_blank" rel="noopener noreferrer" href="https://movie-mate-fullstack.herokuapp.com/">
                 <img src={moviematereact} />
                 <div className={styles.imgDescription}>
                   <h1 className={styles.text}>Movie-Mate</h1>
@@ -76,7 +76,7 @@ export default function Work() {
           </Col>
           <Col>
             <div className={styles.imageWrap}>
-              <a target="_blank" href="https://michaellorzing.github.io/Crystal-Game/index.html">
+              <a target="_blank" rel="noopener noreferrer" href="https://michaellorzing.github.io/Crystal-Game/index.html">
                 <img src={crystal} />
                 <div className={styles.imgDescription}>
                   <h1 className={styles.text}>Crystal Game</h1>

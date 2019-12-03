@@ -33,3 +33,21 @@
   visibility: visible;
   opacity: 1;
 }
+
+@media only screen and (max-width:771px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:1589px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

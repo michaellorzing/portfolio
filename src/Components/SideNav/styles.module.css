@@ -3,7 +3,7 @@
   background-color: #363B41;
   justify-content: flex-start;
   flex-direction: row;
-  align-content: center;
+  align-content: flex-start;
   opacity: 0.9;
 }
 
@@ -14,12 +14,18 @@
 .text {
   color: #7F8993;
   font-size: 24px;
-  display: flex;
-  margin-top: 95px;
+  cursor: pointer;
+}
+
+.link{
+  margin-top: 35px;
+  margin-left: 10px;
+ 
 }
 
 .text:hover {
   color: #375880;
   text-decoration: none;
 }
+
 

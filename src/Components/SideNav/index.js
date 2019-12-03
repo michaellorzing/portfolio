@@ -1,62 +1,52 @@
-import React from 'react'
-import { Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
+import React, { useState } from 'react'
+import { Navbar, Nav, NavItem, NavLink, Collapse, NavbarBrand, NavbarToggler } from 'reactstrap';
 import {
-  BrowserRouter as Router,
-  Switch,
+  HashRouter,
   Route,
+  Router,
   Link
 } from "react-router-dom";
-import { useTransition, animated } from 'react-spring'
 import AboutMe from '../AboutMe'
 import Work from '../Work'
 import Contact from '../Contact'
 import Resume from '../Resume'
 import styles from './styles.module.css'
 import logo from './images/logo.png'
-import linkedin from './images/resizedlinked.png'
 
 export default function SideNav(props) {
 
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
   return (
-    <Router>
-      <Nav className={styles.nav}>
-        <NavItem>
-          <NavLink>
-            <Link to='/portfolio' >
-              <img src={logo} />
-            </Link>
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink>
-            <Link to='/work' className={styles.text}>Work</Link>
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink>
-            <Link to='/resume' className={styles.text}>Resume</Link>
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink>
-            <Link to='/contact' className={styles.text}>Contact</Link>
-          </NavLink>
-        </NavItem>
-      </Nav>
-      <Switch>
-        <Route path="/work" component={Work}>
-          <Work />
-        </Route>
-        <Route path="/resume" component={Resume}>
-          <Resume />
-        </Route>
-        <Route path="/contact" component={Contact}>
-          <Contact />
-        </Route>
-        <Route exact path="/portfolio" component={AboutMe}>
-          <AboutMe />
-        </Route>
-      </Switch>
-    </Router>
+    <HashRouter>
+      <Navbar expand="lg" className={styles.nav} color="dark" dark>
+        <NavbarBrand>
+          <Link to='/portfolio'>
+            <img src={logo} />
+          </Link>
+        </NavbarBrand>
+        <NavbarToggler onClick={toggle} className={styles.toggler} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className='mr-auto' navbar>
+            <NavItem >
+              <NavLink className={styles.link}>
+                <Link to='/work' className={styles.text}>Work</Link>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className={styles.link}>
+                <Link to='/resume' className={styles.text}>Resume</Link>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className={styles.link}>
+                <Link to='/contact' className={styles.text}>Contact</Link>
+              </NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </HashRouter>
   )
 }

@@ -14,14 +14,14 @@ export default function Contact() {
     <Container className={styles.wrapper}>
       <Row>
         <Col>
-          <a target="_blank" href='https://github.com/michaellorzing'>
+          <a target="_blank" rel="noopener noreferrer" href='https://github.com/michaellorzing'>
             <animated.div style={fadeIn}>
               <FontAwesomeIcon className={styles.github} icon={faGithubSquare} />
             </animated.div>
           </a>
         </Col>
         <Col>
-          <a target="_blank" href='https://www.linkedin.com/in/michael-lorzing-4aa2b4a9/'>
+          <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/michael-lorzing-4aa2b4a9/'>
             <animated.div style={fadeIn}>
               <FontAwesomeIcon className={styles.linkedin} icon={faLinkedinIn} />
             </animated.div>

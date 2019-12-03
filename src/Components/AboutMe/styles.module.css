@@ -56,3 +56,30 @@
   left: 0;
   right: 0;
 }
+
+@media only screen and (max-width:771px){
+  .textContainer{
+    border-radius: 25px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+  }
+  .img {
+    display: none;
+  }
+  .h1{
+    font-size: 40px;
+  }
+  .h2 {
+    font-size: 20px;
+  }
+  .mainContainer{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:1589px){
+
+}
