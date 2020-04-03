@@ -20,7 +20,7 @@ export default function SideNav(props) {
 		<Navbar expand='lg' className={styles.nav} color='dark' dark>
 			<NavbarBrand>
 				<Link to='/portfolio'>
-					<img src={logo} />
+					<img src={logo} alt='logo' />
 				</Link>
 			</NavbarBrand>
 			<NavbarToggler onClick={toggle} className={styles.toggler} />

@@ -23,6 +23,7 @@ export default function Resume() {
 					</Col>
 				</Row>
 				<iframe
+					title='resume'
 					className={styles.resume}
 					height='1000px'
 					width='1000px'

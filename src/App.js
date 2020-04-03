@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Route, HashRouter } from 'react-router-dom';
 import { StyledBg } from './StyledBg';
 import SideNav from './Components/SideNav';

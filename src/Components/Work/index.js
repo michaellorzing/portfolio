@@ -1,7 +1,6 @@
-import React, { Fragment } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import React from 'react';
+import { Container, Row } from 'reactstrap';
 import { useSpring, animated } from 'react-spring';
-import styles from './styles.module.css';
 import SingleWork from './SingleWork';
 import skunexus from './images/skunexus.png';
 import spacex from './images/spacex.png';
