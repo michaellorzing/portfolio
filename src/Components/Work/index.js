@@ -15,7 +15,7 @@ export default function Work() {
 
 	return (
 		<animated.div style={fadeIn}>
-			<div className={styles.container}>
+			<Container className={styles.container}>
 				<Row>
 					<SingleWork
 						url='http://www.skunexus.com'
@@ -60,7 +60,7 @@ export default function Work() {
 						alt={moviemate}
 					/>
 				</Row>
-			</div>
+			</Container>
 		</animated.div>
 	);
 }
