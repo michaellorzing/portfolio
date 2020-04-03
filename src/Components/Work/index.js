@@ -39,7 +39,7 @@ export default function Work() {
 						alt={hotel}
 					/>
 					<SingleWork
-						url='https://compassionate-mestorf-8e4ecd.netlify.com/'
+						url='https://distracted-hypatia-1e738d.netlify.com/'
 						img={tetris}
 						job='Reactris'
 						desc='Tetris with React and custom hooks'
@@ -55,7 +55,7 @@ export default function Work() {
 					<SingleWork
 						url='https://koutouzosm.github.io/Project_1/index.html'
 						img={moviemate}
-						job='Move-Flow'
+						job='Movie-Flow'
 						desc='Movie suggestions and information using JQuery'
 						alt={moviemate}
 					/>
