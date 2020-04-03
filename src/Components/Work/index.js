@@ -15,7 +15,7 @@ export default function Work() {
 
 	return (
 		<animated.div style={fadeIn}>
-			<Container className={styles.container}>
+			<Container>
 				<Row>
 					<SingleWork
 						url='http://www.skunexus.com'
