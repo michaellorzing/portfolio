@@ -28,6 +28,7 @@ const SingleWork = ({ url, img, job, desc, alt }) => {
 						transform: props.xys.interpolate(trans),
 						margin: '15px',
 						background: '#56ECFF',
+						boxShadow: '10px 10px 8px #434242',
 					}}
 				>
 					<div className={styles.imageWrap}>
